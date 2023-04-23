@@ -1,1 +1,40 @@
 
+#title {
+    font-family: 'Poiret One', cursive;
+    font-size: 60px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 254, 254);
+}
+
+.nav-item {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+}
+
+.nav-link {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    color: white;
+    background-color:black; 
+}
+
+#nav {
+    color: white;
+    background-color:black; 
+}
+
+body {
+    font-family: 'Cantarell', sans-serif; 
+    background-color:rgb(253, 164, 164)
+}
+
+h2 {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    color: black;
+}
+
+/* .container-fluid {
+    background-color: black;
+    color: white;
+} */
