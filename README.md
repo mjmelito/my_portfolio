@@ -1,29 +1,33 @@
-# (Application Name)
+# Matthew Melito Portfolio and Resume
 
-#### (Brief Description of Application)
+#### By Matthew Melito
 
-#### By (Your Name Here)
+#### An online portfolio and resume for networking and job searching.
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS
 
 ## Description
 
+This site serves as an online portfolio and resume for Epicodus student Matt Melito. It contains a bio, headshot, resume, email contact button, and portfolio linked to github pages.
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* To view this application, visit mjmelito.github.io/portfolio
+* OR
+* Clone this repository to your desktop.
+* Navigate to the top level of the directory.
+* Open index.html in your browser.
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+None
 
 ## License
+
+*This project uses the following license: [MIT](https://opensource.org/licenses/MIT)*
+
+Copyright (c) 2023
+**_Matthew Melito_**
