@@ -2,57 +2,101 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matt Melito Portfolio</title>
+  <title>Matt Melito</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Poiret+One&display=swap" rel="stylesheet">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-Z7KjjP6Iuon7wKN8mgxWcDCaNNYvj4epg7vadF9dpA2HlO5C5S5/W5gJ6WxvcBtZGJtck1+ICmXKFWlwLyg/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poiret+One&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+      <div class="cursor"></div>
+
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#" id="title">Matt Melito</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Matt Melito</a>
+        </div>
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link"  href="#about">About</a>
+            <a class="nav-link" href="#headline">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#resume">Resume</a>
+            <a class="nav-link" href="#">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section id="about" class="section">
-    <div class="container">
-      <h2 class="section-title">Bio</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <p>Matt is a designer, web developer, and music producer based in Portland, Oregon. Having spent over a decade working in hospitality, he has a keen ability to anticipate the wants and needs of consumers. As a sommelier, he's used to synthesizing large amounts of information and later recalling that information to improve the guest experience on the spot.</p>
-        </div>
-        <div class="col-md-6">
-          <p>Recognizing the growing need for thoughtful programmers as we increasingly rely on technology to enhance real world experience, Matt hopes to bring a user centered hospitality to his work as a web developer. His creativity and eye for design allow him to create applications that are not only intuitive, but also a pleasure to use. </p>
-        </div>
+
+
+  <div id="headline">
+          <h2>Hi, I'm</h2>
+          <h1>Matt</h1>
+          <h1>Melito</h1>
+          <h2>Full Stack Engineer & Web Developer</h2>
+          <div class="container">
+            <button>Contact Me</button>
+          </div>
+  </div>
+
+
+  <img src="assets/images/tech.jpeg" alt="computer technology illustration" id="Photo1" class="row">
+
+
+ 
+
+
+
+
+  <div id="about">
+    <div>
+      <div>
+        <h3>About Me</h3>
+        <h4 class="aboutText">Resourceful and creative hospitality professional working to transition into a career in software development. 
+          Having spent close to a decade working in a variety of customer service roles, I'm well-practiced at anticipating consumer needs and quickly problem-solving to meet those needs when under pressure.  I work best when I'm challenged with a complex task, and I'm used to working in a fast-paced, constantly changing environment.   Earlier this year I began studying to become a full-stack web developer with Epicodus, where I've further honed my communication and critical thinking skills. As we continue to integrate technology with every aspect of our lives, I'm working to apply my hospitality experience to creating web applications that are efficient, equitable, and enjoyable to use. Check out my Github to see the projects I have worked on: https://github.com/mjmelito.</h4>
       </div>
     </div>
-  </section>
+  </div>
 
-  <div class="projects">
+  <div id="projects">
+    <div class="row">
+      <div class="col-md-4 text-left">
+        <h3>My Work</h3>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+  <!-- <div class="section" id="projects">
     <h3>My Projects</h3>
       <ul>
         <li><a href="https://mjmelito.github.io/barley/" target="_blank">Barley's Buzz</a></li>
@@ -66,15 +110,17 @@
       </ul>
   </div>
 
-  <div>
-    <iframe id="resume" width="1000" height="2000" src="https://docs.google.com/document/d/e/2PACX-1vR8_sDokH8FkJ_8VNs8WgSfEVhyX5Yx0rLhFMnAurlpV1FH8YXDHijsJayJjSIMy-75N_39emjMIThy/pub?embedded=true" scrolling="no"></iframe>
-  </div>
-  <div id="contact">
-  <h3>Interested in working together?<br><br></h3>
-  <h3>
-    <a href="mailto:matt_melito@outlook.com" id="button">Let's Connect</a>
-  </h3>
-  </div>
 
-</body>
-</html>
+
+
+  <div class = "section" id="resume">
+    <iframe width="1000" height="2000" src="https://docs.google.com/document/d/e/2PACX-1vR8_sDokH8FkJ_8VNs8WgSfEVhyX5Yx0rLhFMnAurlpV1FH8YXDHijsJayJjSIMy-75N_39emjMIThy/pub?embedded=true" scrolling="no"></iframe>
+  </div> -->
+
+<!-- 
+  <div class="section" id="contact">
+  <h3>Interested in working together?<br><br></h3>
+    <h3>
+      <a href="mailto:matt_melito@outlook.com" id="button">Let's Connect</a>
+    </h3>
+  </div> -->
