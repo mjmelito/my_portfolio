@@ -88,14 +88,22 @@ body {
   }
 
 #about {
-  padding:0vw;
+  padding:2px;
   margin: auto;
   height: 40vh;
-  width: 40vw;
+  width: 50vw;
+  border-width: 3px;
+  border-style: solid;
+  border-color: azure;
+  border-radius: 2.5%;
 }
 
 #work {
   margin: auto;
+  border-width: 3px;
+  border-style: solid;
+  border-color: azure;
+  border-radius: 2.5%;
 }
 #projects {
   margin: auto;
