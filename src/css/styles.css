@@ -22,9 +22,16 @@ body {
   font-size:medium;
 }
 
+.nav-item {
+  font-family: 'Poiret One', cursive;
+  padding: 5px;
+}
+
 
 
 .navbar-brand {
+  font-family: 'Poiret One', cursive;
+  font-size: large;;
   padding: 14px 16px;
 }
 
@@ -32,7 +39,7 @@ body {
 #Photo1 {
   display: block;
   float: left;
-  margin-left: 0vw;
+  margin-left: -6vw;
   margin-right: 1vw;
   margin-top: 12vw;
   width: 45vw;
@@ -46,23 +53,37 @@ body {
   display: block;
   padding:0vw;
   margin-top: 13vw;
-  margin-left: 5vw;
+  margin-left: 8vw;
   margin-right: 0vw;
-  margin-bottom: 10vw;
+  margin-bottom: 1vw;
   height: 40vh;
   width: 45vw;
   }
 
 #about {
-  margin-top: 10px;
+  margin-top: 1px;
   float: left;
   padding-top: 10vw;
+  padding:0vw;
+  margin-top: 13vw;
+  margin-left: 8vw;
+  margin-right: 0vw;
+  margin-bottom: 1vh;
+  height: 40vh;
+  width: 45vw;
 }
 
 #projects {
   margin-top: 10px;
   float: left;
-  padding-top: 10vw;
+
+  padding:0vw;
+  margin-top: 13vw;
+  margin-left: 8vw;
+  margin-right: 0vw;
+  margin-bottom: 10vh;
+  height: 40vh;
+  width: 45vw;
 }
 
   h1 {
@@ -99,7 +120,7 @@ button {
   --shadow-end: 282deg, 90%, 50%;
   --shadow-inner: 277deg, 90%, 62%;
   all: unset;
-  color: hsla(var(--text-base), 1);
+  color: azure;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
@@ -111,12 +132,11 @@ button {
   width: 12em;
   background: inherit;
   background-clip: padding-box;
-  border: 5px solid hsla(var(--text-base), 1);
+  border: 5px solid azure;
   border-radius: 2em;
   cursor: pointer;
   position: relative;
   transition: 0.25s ease-out;
-  color: azure;
   border-color: azure;
 }
 button::before, button::after {
