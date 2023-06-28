@@ -3,7 +3,6 @@
 
 body {
   background-image: linear-gradient( to bottom right, rgba(1,51,102,255), rgba(168,67,186,255), rgba(255,161,113,255));
-
   direction: ltr;
 }
 
@@ -16,18 +15,26 @@ body {
   left: 0;
   color: #333;
   text-decoration: none;
-  font-size:medium;
+  font-size:medium; 
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbarSupportedContent {
+  padding: 0%;
 }
 
 .nav-item {
   font-family: 'Poiret One', cursive;
-  padding: 5px;
+  padding: 5%;
 }
 
 .navbar-brand {
   font-family: 'Poiret One', cursive;
   font-size:x-large;
-  position: fixed;
 }
 
 #content {
