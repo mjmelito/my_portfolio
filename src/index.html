@@ -13,25 +13,34 @@
 
 <body>
 
-  <div class="zero">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Matt Melito</a>
-      </div>
-      <div class ="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse"     id="navbarSupportedContent">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#engineer">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#resume">Resume</a>
+              <a class="nav-link" href="#">Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -40,7 +49,6 @@
         </div>
       </div>
     </nav>
-  </div>
 
   <div id="content">
 
@@ -59,24 +67,23 @@
       </div>
     </div>
 
-
-
     <div class="two">
         <img src="assets/images/tech.jpeg" alt="computer technology illustration" id="Photo1">
     </div>
 
 
 
+
     <div class="three">
       <div id="engineer">
-          <h3>As an Engineer</h3>
-          <h4 class="engineerText">I build with clean, thoroughly tested, well documented code to provide solutions that are elegant, scalable, and reusable.  Check out my Github to see the projects I have worked on: https://github.com/mjmelito.</h4>
+          <h3>Engineering</h3><br>
+          <h4 class="engineerText">I build with clean, thoroughly tested, well-documented code to provide solutions that are elegant, scalable, and reusable.  Check out my Github to see the projects I have worked on: https://github.com/mjmelito.</h4>
       </div>
     </div>
 
     <div class = "four">
       <div id="design">
-        <h3>As a Designer</h3>
+        <h3>Design</h3><br>
         <h4 class="designerText">I focus on intuitive mapping, error-tolerance, and accessibility to create human-centered designs that are useful, safe, and a pleasure to use. </h4>
       </div>
     </div>
@@ -84,23 +91,31 @@
 
     <div class="five">
       <div id="skills">
-        <h3>Technologies I Work With</h3>
-        <h4></h4>
+        <h3>Technologies I Use</h3><br>
+          <div id="logoList">
+            <img src="assets/images/Csharp_Logo.png" alt="csharp logo" id="csharpLogo" class="logo">
+            <img src="assets/images/.Net_Logo.png" alt=".net logo" id="dotnetLogo" class="logo">
+            <img src="assets/images/React_Logo.png" alt="react logo" id="reactLogo" class="logo">
+            <img src="assets/images/JavaScript_Logo.png" alt="javascript logo" id="jsLogo" class="logo">
+            <img src="assets/images/Node_Logo.png" alt="node dot js logo" id="nodeLogo" class="logo">
+            <img src="assets/images/Webpack_Logo.png" alt="webpacklogo" id="webpackLogo" class="logo">
+            <img src="assets/images/MySQL_Logo.png" alt="my sequel logo" id="mysqlLogo" class="logo">
+            <img src="assets/images/HTML5_Logo.png" alt="html 5 logo" id="htmlLogo" class="logo">
+            <img src="assets/images/CSS3_Logo.png" alt="css 3 logo" id="cssLogo" class="logo">
+            <img src="assets/images/Bootstrap_Logo.png" alt="bootstrap logo" id="bootstrapLogo" class="logo">
+            <img src="assets/images/GitHub_Logo.png" alt="github logo" id="githubLogo" class="logo">
+            <img src="assets/images/VSCode_Logo.png" alt="vs code logo" id="vscodeLogo" class="logo">
+          </div>
       </div>
     </div>
+
+
+
+
 
     <div class="six">
-      <div id="work">
-            <h3>My Work</h3>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-      </div>
-    </div>
-
-
-
-    <div class="seven">
       <div id="projects">
-        <h3>My Projects</h3>
+        <h3>Portfolio</h3>
           <ul>
             <li><a href="https://mjmelito.github.io/barley/" target="_blank">Barley's Buzz</a></li>
             <p class="indenthalf">Barley Buzz is an online profile and blog for Matt's dog Barley, built with HTML and CSS.</p>
@@ -116,11 +131,11 @@
 
 
 
-    <div class="eight">
+    <!-- <div class="eight">
       <div class = "section" id="resume">
         <iframe width="1000" height="2000" src="https://docs.google.com/document/d/e/2PACX-1vR8_sDokH8FkJ_8VNs8WgSfEVhyX5Yx0rLhFMnAurlpV1FH8YXDHijsJayJjSIMy-75N_39emjMIThy/pub?embedded=true" scrolling="no"></iframe>
       </div> 
-    </div>
+    </div> -->
 
 
 
