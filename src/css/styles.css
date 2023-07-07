@@ -137,12 +137,26 @@ body {
   border-radius: 2.5%;
 }
 
-.logo {
- height: 6vh;
- margin: 1vh;
+
+
+/* Icon Display*/
+.skills {
+  margin: auto;
 }
 
-#projects::before { 
+.skills-wrapper img {
+  padding: 1vw;
+}
+
+.icon {
+ width: 5vw;
+}
+
+
+
+
+
+#portfolio::before { 
   display: block; 
   content: " "; 
   margin-top: -285px; 
@@ -154,12 +168,12 @@ body {
 .six {
   grid-column: 1 / 7;
   grid-row: 3 / 3;
+  display: grid;
+  margin-top: 20vh;
 }
 
-#projects {
+#portfolio {
   display: grid;
-  margin: auto;
-  margin-top: 5vh;
 }
 
 
@@ -173,17 +187,6 @@ body {
   grid-row: 6 / 6;
 }
 
-#work {
-  margin: auto;
-  border-width: 3px;
-}
-
-#projects {
-  margin: auto;
-  padding:0vw;
-  height: 40vh;
-  width: 40vw;
-}
 
   h1 {
     color: azure;
