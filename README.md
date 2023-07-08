@@ -1,17 +1,20 @@
-# Matthew Melito Portfolio and Resume
+# Matthew Melito Portfolio
 
 #### By Matthew Melito
 
-#### An online portfolio and resume for networking and job searching.
+#### Personal website and portfolio for use in networking and job searching.
 
 ## Technologies Used
 
 * HTML
 * CSS
+* JavaScript
+* Webpack
+* Bootstrap
 
 ## Description
 
-This site serves as an online portfolio and resume for Epicodus student Matt Melito. It contains a bio, headshot, resume, email contact button, and portfolio linked to github pages.
+This site serves as an online portfolio and resume for developer and software engineer Matt Melito. It contains a bio, headshot, resume, email contact button, and portfolio linked to github pages.
 
 ## Setup/Installation Requirements
 

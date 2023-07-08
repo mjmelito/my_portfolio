@@ -34,7 +34,7 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#engineer">About</a>
+              <a class="nav-link" href="#bio">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -60,9 +60,8 @@
         <h1>Melito</h1>
         <h2>Full Stack Developer</h2>
         <h2>Software Engineer</h2>
-        <h2>UX/UI Designer</h2>
-        <div class="container">
-          <button>Let's Connect</button>
+        <div id="letsConnect">
+          <button id="connectButton">Let's Connect</button>
         </div>
       </div>
     </div>
@@ -75,21 +74,14 @@
 
 
     <div class="three">
-      <div id="engineer">
-          <h3>Engineering</h3><br>
-          <h4 class="engineerText">I build with clean, thoroughly tested, well-documented code to provide solutions that are elegant, scalable, and reusable.  Check out my Github to see the projects I have worked on: https://github.com/mjmelito.</h4>
-      </div>
-    </div>
-
-    <div class = "four">
-      <div id="design">
-        <h3>Design</h3><br>
-        <h4 class="designerText">I focus on intuitive mapping, error-tolerance, and accessibility to create human-centered designs that are useful, safe, and a pleasure to use. </h4>
+      <div id="bio">
+          <h3>Bio</h3><br>
+          <h4 class="bioText">I'm a passionate web developer embarking on an exciting journey in the field. My building approach revolves around test-driven development, where I ensure the reliability and robustness of my code through comprehensive testing. I prioritize thorough documentation to facilitate seamless collaboration and knowledge sharing. With a focus on writing elegant, scalable, and reusable code, I am committed to contributing to cutting-edge products that make a meaningful impact.</h4>
       </div>
     </div>
 
 
-    <div class="five">
+    <div class="four">
       <section class="skills" id="skills">
         <h2 class="skill-header">Technologies I Use</h2>
   
@@ -112,16 +104,16 @@
                 alt="my sequel logo"
                 loading="lazy"
                 class="icon icon-card"
-            />
+              />
+              <img
+                src="assets/images/React_Logo.png" 
+                alt="react logo"
+                loading="lazy"
+                class="icon icon-card"
+               />
           </div>
   
           <div class="second-set animate__animated animate__pulse">
-            <img
-              src="assets/images/React_Logo.png" 
-              alt="react logo"
-              loading="lazy"
-              class="icon icon-card"
-            />
             <img
               src="assets/images/JavaScript_Logo.png" 
               alt="javascript logo"
@@ -134,9 +126,6 @@
               loading="lazy"
               class="icon icon-card"
             />
-          </div>
-
-          <div class="third-set animate__animated animate__pulse">
             <img
               src="assets/images/HTML5_Logo.png"
               alt="html 5 logo"
@@ -149,15 +138,15 @@
               loading="lazy"
               class="icon icon-card"
             />
+          </div>
+
+          <div class="third-set animate__animated animate__pulse">
             <img
               src="assets/images/Bootstrap_Logo.png" 
               alt="bootstrap logo"
               loading="lazy"
               class="icon icon-card"
             />
-          </div>
-
-          <div class="fourth-set animate__animated animate__pulse">
             <img
               src="assets/images/GitHub_Logo.png"
               alt="github logo"
@@ -181,6 +170,21 @@
       </section>
     </div>
 
+    <div class = "five">
+      <div id="softSkills">
+        <h3>Soft Skills</h3><br>
+        <ul>
+          <li>Agile Methodologies</li>
+          <li>Pair Programming</li>
+          <li>DEI Driven Communication</li>
+          <li>Human-Centered Design Principles</li>
+          <li>Intuitive Mapping and Error-Tolerance</li>
+          <li>Customer Service</li>
+          <li>Staff Education and Training</li>
+        </ul>
+      </div>
+    </div>
+
 
 
 
@@ -202,11 +206,29 @@
 
 
 
-    <!-- <div class="eight">
-      <div class = "section" id="resume">
-        <iframe width="1000" height="2000" src="https://docs.google.com/document/d/e/2PACX-1vR8_sDokH8FkJ_8VNs8WgSfEVhyX5Yx0rLhFMnAurlpV1FH8YXDHijsJayJjSIMy-75N_39emjMIThy/pub?embedded=true" scrolling="no"></iframe>
+    <div class="seven">
+      <div  id="contactForm">
+        <div class="container">
+          <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <textarea id="subject" name="subject" placeholder="Subject" style="height:200px"></textarea>
+
+            <label for="message">Message</label>
+            <textarea id="subject" name="message" placeholder="Write your message here..." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+          </form>
+        </div>
       </div> 
-    </div> -->
+    </div>
 
 
 
