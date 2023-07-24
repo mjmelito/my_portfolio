@@ -18,7 +18,7 @@ This site serves as an online portfolio and resume for developer and software en
 
 ## Setup/Installation Requirements
 
-* To view this application, visit mjmelito.github.io/portfolio
+* To view this application, visit mjmelito.github.io/my_portfolio
 * OR
 * Clone this repository to your desktop.
 * Navigate to the top level of the directory.
