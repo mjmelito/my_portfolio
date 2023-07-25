@@ -6,9 +6,6 @@
     "url": "git+https://github.com/mjmelito/my_portfolio.git"
   },
   "main": "index.js",
-  "repository": {
-    "url": "git+https://github.com/mjmelito/my_portfolio.git"
-  },
   "homepage": "http://mjmelito.github.io/my_portfolio",
   "scripts": {
     "build": "webpack --mode=development",
