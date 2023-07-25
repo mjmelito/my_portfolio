@@ -5,10 +5,9 @@
   <title>Matt Melito</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poiret+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -40,10 +39,13 @@
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link" href="mailto:matt_melito@outlook.com">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactForm">Contact</a>
+              <a class="nav-link" href="https://github.com/mjmelito">Github</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/mattmelito/">LinkedIn</a>
             </li>
           </ul>
         </div>
@@ -59,15 +61,11 @@
         <h1>Matt</h1>
         <h1>Melito</h1>
         <h2>Full Stack Developer</h2>
-        <h2>Software Engineer</h2>
-        <div id="letsConnect">
-          <button id="connectButton">Let's Connect</button>
-        </div>
       </div>
     </div>
 
     <div class="two">
-        <img src="assets/images/tech.jpeg" alt="computer technology illustration" id="Photo1">
+        <img src="assets/images/Watermark.png" id="Photo1">
     </div>
 
 
@@ -76,14 +74,14 @@
     <div class="three">
       <div id="bio">
           <h3>Bio</h3><br>
-          <h4 class="bioText">I'm a passionate web developer embarking on an exciting journey in the field. My building approach revolves around test-driven development, where I ensure the reliability and robustness of my code through comprehensive testing. I prioritize thorough documentation to facilitate seamless collaboration and knowledge sharing. With a focus on writing elegant, scalable, and reusable code, I am committed to contributing to cutting-edge products that make a meaningful impact.</h4>
+          <p class="bioText">I'm a driven web developer working to apply my background in hospitality to my work as I transition into the tech industry. My approach to programming is rooted in producing efficient, scalable, and resusable code through thorough test-driven development and clear documentation. I'm currently seeking opportunities where I can collaborate with other developers and continue to hone my skills in professional development environments.</p>
       </div>
     </div>
 
 
     <div class="four">
       <section class="skills" id="skills">
-        <h2 class="skill-header">Technologies I Use</h2>
+        <h3 class="skill-header">Technologies I Use</h3>
   
         <div class="skills-wrapper">
           <div class="first-set animate__animated animate__pulse">
@@ -190,38 +188,68 @@
 
     <div class="six">
       <div id="portfolio">
+        <h3>Portfolio</h3>
         <div class="card-group">
+
           <div class="card">
-            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Music Guessing Game</h5>
+              <p class="card-text">Two player music guessing game where players are challenged to guess popular song titles against the clock. Built over 2 weeks with a three person development team.</p>
+              <p class="card-text"><small class="text-muted">JavaScript, Spotify API, Webpack, HTML/CSS</small></p>
+              <button type="button" class="btn btn-secondary"><a class=viewProject href="https://github.com/mjmelito/spotify-api/tree/main">View Repository</a></button>
             </div>
           </div>
+          
           <div class="card">
-            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Nomad Craft</h5>
+              <p class="card-text">Travel website where users can log trips in a database and organize destinations, transportation, and lodging. Built over two weeks with a 3 person development team.</p>
+              <p class="card-text"><small class="text-muted">C#, .Net, MySql, Entity Framework Core, AspNet Core</small></p>
+              <button type="button" class="btn btn-secondary"><a class=viewProject href="https://github.com/mjmelito/TravelPlanner">View Repository</a></button>
             </div>
           </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Animal Shelter API</h5>
+                <p class="card-text">API for viewing and storing animals available for adoption with endpoints for Get, Post, Put, and Delete.</p>
+                <p class="card-text"><small class="text-muted">C#, .Net, MySql, Entity Framework Core, AspNet Core, Identity, NewAPIScaffolding, SwaggerUI</small></p>
+                <button type="button" class="btn btn-secondary"><a class=viewProject href="https://github.com/mjmelito/AnimalShelter">View Repository</a></button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card-group">
+
           <div class="card">
-            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Bakery Database</h5>
+              <p class="card-text">Inventory management application built with MySql and Entity Framework Core where users can login and either view or manage the bakery's inventory with full CRUD functionality.</p>
+              <p class="card-text"><small class="text-muted">C#, .Net, MySql, Entity Framework Core, AspNet Core</small></p>
+              <button type="button" class="btn btn-secondary"><a class=viewProject href="https://github.com/mjmelito/Bakery">View Repository</a></button>
             </div>
           </div>
+          
           <div class="card">
-            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Bear Battle RPG</h5>
+              <p class="card-text">A simple turn based RPG where players can role play as a knight. This project uses console log statements as well as the controls in the browser window.</p>
+              <p class="card-text"><small class="text-muted">JavaScript, Webpack, HTML/CSS</small></p>
+              <button type="button" class="btn btn-secondary"><a class=viewProject href="https://github.com/mjmelito/rpg2">View Repository</a></button>
             </div>
+          </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Programming Language Quiz</h5>
+                <p class="card-text">JavaScript application where users can answer a series of questions and get a recomendation on which programming language to learn next based on their answers.</p>
+                <p class="card-text"><small class="text-muted">JavaScript, HTML, CSS</small></p>
+                <button type="button" class="btn btn-secondary"><a class=viewProject href="https://github.com/mjmelito/languageselector">View Repository</a></button>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
